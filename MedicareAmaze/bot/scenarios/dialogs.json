@@ -1,0 +1,25 @@
+{
+  "dialogs": [
+
+    {
+      "path": "/Welcome-luis-0001",
+      "regex": "^leadluis001",
+      "scenario": "Welcome-luis-0001"
+    },
+    {
+      "path": "/Welcome-non-luis-0001",
+      "regex": "^leadnonluis001",
+      "scenario": "Welcome-non-luis-0001"
+    },
+    {
+      "path": "/Welcome-luis-0002",
+      "regex": "^leadluis002",
+      "scenario": "Welcome-luis-0002"
+    },
+    {
+      "path": "/Welcome-non-luis-0002",
+      "regex": "^leadnonluis002",
+      "scenario": "Welcome-non-luis-0002"
+    }
+  ]
+}
