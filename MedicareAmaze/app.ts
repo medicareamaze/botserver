@@ -49,7 +49,7 @@ class App {
 
             const app = express();
             // Setup Express Server
-            app.listen(process.env.port || process.env.PORT || 8080, '::', () => {
+            app.listen(process.env.port || process.env.PORT || process.env.bot_port || process.env.BOT_PORT || 8080, '::', () => {
                 console.log('Server Up Now');
 
             });

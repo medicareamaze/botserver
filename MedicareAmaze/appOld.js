@@ -230,5 +230,5 @@ handoff.setup(bot, app, isAgent, {
 //    handoff.triggerHandoff(session);
 //}).triggerAction({
 //    matches: /^agent/i,
-//});
+//}); 
 //# sourceMappingURL=appOld.js.map

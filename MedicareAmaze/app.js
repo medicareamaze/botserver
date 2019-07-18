@@ -52,7 +52,7 @@ class App {
                 console.log(vapidKeys.publicKey);
                 const app = express();
                 // Setup Express Server
-                app.listen(process.env.port || process.env.PORT || 8080, '::', () => {
+                app.listen(process.env.port || process.env.PORT || process.env.bot_port || process.env.BOT_PORT || 8080, '::', () => {
                     console.log('Server Up Now');
                 });
                 //Connect MedicareDB Data base and get agencies
@@ -432,5 +432,5 @@ function loadHandler(handler) {
 //    handoff.triggerHandoff(session);
 //}).triggerAction({
 //    matches: /^agent/i,
-//});
+//}); 
 //# sourceMappingURL=app.js.map
