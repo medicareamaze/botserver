@@ -16,7 +16,7 @@
     "botbuilder": "^3.14.0",
     "botbuilder-handoff": "git+https://github.com/medicareamaze/Bot-HandOff.git#npm-handoff",
     "cache": "^2.1.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mongo-bot-storage": "0.0.4",
     "planout": "^4.0.0",
     "typescript": "^2.7.2",
